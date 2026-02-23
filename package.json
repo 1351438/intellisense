@@ -1,0 +1,59 @@
+{
+  "name": "telegram-ton-agent-bot",
+  "version": "0.1.0",
+  "private": true,
+  "license": "Apache-2.0",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "tsx watch src/main.ts",
+    "dev:local": "node --env-file=.env.local --import tsx --watch src/main.ts",
+    "dev:local:bootstrap": "node ./scripts/dev-local-bootstrap.mjs",
+    "start": "tsx src/main.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "tsx src/db/migrate.ts",
+    "db:migrate:local": "node --env-file=.env.local --import tsx src/db/migrate.ts",
+    "infra:local:up": "docker compose -f docker-compose.local.yml --env-file .env.local.infra up -d",
+    "infra:local:tools": "docker compose -f docker-compose.local.yml --env-file .env.local.infra --profile tools up -d",
+    "infra:local:down": "docker compose -f docker-compose.local.yml --env-file .env.local.infra down",
+    "infra:local:reset": "docker compose -f docker-compose.local.yml --env-file .env.local.infra down -v --remove-orphans",
+    "infra:local:logs": "docker compose -f docker-compose.local.yml --env-file .env.local.infra logs -f --tail=200"
+  },
+  "dependencies": {
+    "@ai-sdk/gateway": "2.0.0-beta.85",
+    "@mhbdev/ai-sdk-ton-tools": "^0.2.0",
+    "@openrouter/ai-sdk-provider": "^2.0.0",
+    "@opentelemetry/api": "^1.9.0",
+    "@opentelemetry/auto-instrumentations-node": "^0.70.0",
+    "@opentelemetry/exporter-metrics-otlp-http": "^0.212.0",
+    "@opentelemetry/exporter-trace-otlp-http": "^0.212.0",
+    "@opentelemetry/resources": "^2.5.1",
+    "@opentelemetry/sdk-metrics": "^2.2.0",
+    "@opentelemetry/sdk-node": "^0.212.0",
+    "@opentelemetry/semantic-conventions": "^1.39.0",
+    "@tonconnect/sdk": "^3.4.1",
+    "ai": "6.0.0-beta.159",
+    "bullmq": "^5.61.0",
+    "drizzle-orm": "^0.44.7",
+    "fastify": "^5.6.2",
+    "grammy": "^1.38.3",
+    "ioredis": "^5.8.2",
+    "pino": "^10.3.1",
+    "pino-pretty": "^13.1.3",
+    "postgres": "^3.4.8",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.4",
+    "drizzle-kit": "^0.31.7",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  },
+  "packageManager": "pnpm@9.12.3"
+}
