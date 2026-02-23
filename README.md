@@ -1,4 +1,4 @@
-![TelegramTonAgentBot](logo.jpg){ width="640" height="400" style="display: block; margin: 0 auto" }
+![TelegramTonAgentBot](banner.png){ width="640" height="400" style="display: block; margin: 0 auto" }
 # Telegram TON Agent Bot
 
 Production-grade Telegram bot service for TON tools with:
