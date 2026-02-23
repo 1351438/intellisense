@@ -1,3 +1,4 @@
+![TelegramTonAgentBot](logo.jpg)
 # Telegram TON Agent Bot
 
 Production-grade Telegram bot service for TON tools with:
@@ -172,7 +173,3 @@ docker compose exec telegram-bot node -e "fetch('http://127.0.0.1:8787/healthz')
 - Critical TON write operations require explicit user approval.
 - Sensitive key-generation/signing tools are disabled in Telegram v1.
 - Wallet custody is non-custodial only.
-
-## License
-
-`examples/telegram-bot/` is licensed under Apache License 2.0. See `LICENSE` in this directory.

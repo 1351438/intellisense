@@ -1,13 +1,86 @@
-Copyright 2026 MHB Dev
+INTELLISENSE NON-COMMERCIAL LICENSE (INCL) v1.0
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+Copyright (c) 2026 Morteza Bagheri
 
-    http://www.apache.org/licenses/LICENSE-2.0
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to use,
+copy, modify, and distribute the Software, subject to the following conditions.
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+1) NON-COMMERCIAL USE ONLY
+   You may use, copy, modify, and distribute the Software only for
+   Non-Commercial purposes.
+
+   "Non-Commercial" means the Software is not used, directly or indirectly, to
+   generate revenue, compensation, or other commercial advantage, and is not
+   used in connection with any Commercial Activity (defined below).
+
+2) COMMERCIAL ACTIVITY IS NOT PERMITTED WITHOUT A COMMERCIAL LICENSE
+   Any Commercial Use of the Software is prohibited unless you have obtained a
+   separate written commercial license from the copyright holder.
+
+   "Commercial Use" includes, without limitation:
+   a) selling, licensing, renting, or otherwise monetizing the Software;
+   b) offering the Software or a Derivative Work as part of a paid product or
+      service (including SaaS, hosted services, bots, APIs, subscriptions,
+      or support/consulting offered for a fee that depends on the Software);
+   c) using the Software (or a Derivative Work) to operate a business, to
+      provide services to customers or clients, or to generate revenue from
+      ads, sponsorships, donations, tips, or affiliate programs that are tied
+      to access to, functionality of, or promotion of the Software;
+   d) using the Software (or a substantial portion of it) to create, launch,
+      or operate a product or service that is offered commercially;
+   e) distributing the Software or a Derivative Work to third parties as part
+      of a commercial offering.
+
+   "Commercial Activity" means any activity primarily intended for or directed
+   toward commercial advantage or monetary compensation.
+
+3) DERIVATIVE WORKS AND REDISTRIBUTION
+   You may create and distribute derivative works ("Derivative Works") of the
+   Software for Non-Commercial purposes only, provided that:
+   a) you include a copy of this License with any distribution; and
+   b) you retain all copyright, trademark, and attribution notices; and
+   c) you clearly mark any modified files or substantial changes; and
+   d) you do not remove or alter any "Powered by Intellisense" or similar
+      attribution notices that are included in the Software (if any).
+
+4) NO TRADEMARK LICENSE
+   This License does not grant permission to use any trade names, trademarks,
+   service marks, or product names of the copyright holder, except as required
+   for reasonable and customary use in describing the origin of the Software.
+
+5) TERMINATION
+   Any violation of this License automatically terminates your rights under
+   this License. Upon termination, you must cease all use and distribution of
+   the Software and destroy all copies in your possession or control.
+
+   If you cure the violation within 30 days of becoming aware of it and notify
+   the copyright holder in writing, your rights may be reinstated at the sole
+   discretion of the copyright holder.
+
+6) COMMERCIAL LICENSES
+   To request a commercial license, contact:
+   Morteza Bagheri
+   Email: bagheri1382morteza@gmail.com
+
+7) DISCLAIMER OF WARRANTY
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL
+   THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+   THE SOFTWARE.
+
+   8) LIMITATION OF LIABILITY
+   TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE
+   COPYRIGHT HOLDER BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL,
+   CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS, REVENUE, DATA,
+   OR GOODWILL, ARISING OUT OF OR RELATED TO THE SOFTWARE, EVEN IF ADVISED OF
+   THE POSSIBILITY OF SUCH DAMAGES.
+
+9) GOVERNING LAW
+   This License shall be governed by and construed in accordance with the laws
+   of Germany, excluding its conflict of law rules.
+
+END OF TERMS AND CONDITIONS
